@@ -11,3 +11,14 @@
   APIs.
 
 ## Google Log
+
+* How to set up an express router
+* Understanding fs.readFile and createReadStream
+
+## Retrospective
+
+Got caught up trying to optimize the dictionary lookup to finish this kate in a
+timely manner. Needed to review how createReadStream works, which segments the
+file into a series of events. This is more optimal in the case of this
+application because I would have the ability to read parts of the txt file
+without having to replicate the file again as a js array. Will attempt again.
